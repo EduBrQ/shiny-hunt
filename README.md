@@ -1,86 +1,116 @@
-# 🔥 Charmander SHINY Simulator
+# 🌟 Shiny Hunting - Pokémon SHINY Encounter Simulator
 
-Um simulador interativo para descobrir quantos encontros são necessários para encontrar um Charmander SHINY em Pokémon Fire Red!
+An interactive simulator to discover how many encounters are needed to find SHINY Pokémon in Fire Red!
 
-## 🎮 Funcionalidades
+## 🎮 Features
 
-- **Simulação Estatística**: Execute múltiplas simulações para encontrar Charmander SHINY
-- **Análise Completa**: Veja estatísticas detalhadas como média, mediana, mínimo e máximo
-- **Cálculo de Tempo Real**: Descubra quanto tempo levaria no jogo real (30 segundos por encontro)
-- **Interface Moderna**: Design responsivo com animações e visualizações atraentes
+- **Statistical Simulation**: Run multiple simulations to find SHINY Pokémon
+- **Complete Analysis**: View detailed statistics like average, median, minimum and maximum
+- **Real Time Calculation**: Discover how much time it would take in real gameplay (30 seconds per encounter)
+- **Modern Interface**: Responsive design with animations and attractive visualizations
+- **Authentic Audio**: Real Pokémon cries and SHINY celebration sounds
+- **Advanced Visualizations**: Charts, heatmaps, and comprehensive statistics
 
-## 🚀 Como Usar
+## 🚀 How to Use
 
-1. **Instale as dependências**:
+1. **Install dependencies**:
    ```bash
    npm install
    ```
 
-2. **Inicie o servidor de desenvolvimento**:
+2. **Start development server**:
    ```bash
    npm start
    ```
 
-3. **Abra seu navegador** e acesse `http://localhost:3000`
+3. **Open your browser** and access `http://localhost:3000`
 
-4. **Digite o número de simulações** que deseja executar (ex: 100, 1000, 10000)
+4. **Choose your starter Pokémon** (Bulbasaur, Charmander, or Squirtle)
 
-5. **Clique em "Iniciar Simulação"** e aguarde os resultados!
+5. **Enter the number of simulations** you want to run (ex: 100, 1000, 10000)
 
-## 📊 O que o simulador mostra
+6. **Click "Simulate"** and wait for the results!
 
-- **Média de Tentativas**: Número médio de encontros para encontrar SHINY
-- **Mediana**: Valor central das tentativas
-- **Mínimo/Máximo**: Menor e maior número de tentativas registradas
-- **Tempo Real Estimado**: Convertido para formato legível (dias, horas, minutos)
-- **Análise Comparativa**: Comparação com a chance teórica (1/8192)
+## 📊 What the simulator shows
 
-## 🎯 Sobre SHINY Hunting
+- **Average Attempts**: Average number of encounters to find SHINY
+- **Median**: Central value of attempts
+- **Minimum/Maximum**: Lowest and highest number of attempts recorded
+- **Estimated Real Time**: Converted to readable format (days, hours, minutes)
+- **Comparative Analysis**: Comparison with theoretical chance (1/8192)
+- **Visual Charts**: Distribution charts and heatmaps
+- **Time Calculations**: Real gameplay time estimates
 
-- **Chance base**: 1/8192 (0.0122%)
-- **Tempo por encontro**: ~30 segundos
-- **Tempo médio estimado**: ~68 horas de jogo
-- **Geração**: Fire Red/Leaf Green (Gen 3)
+## 🎯 About SHINY Hunting
 
-## 🛠️ Tecnologias
+- **Base chance**: 1/8192 (0.0122%)
+- **Time per encounter**: ~30 seconds
+- **Estimated average time**: ~68 hours of gameplay
+- **Generation**: Fire Red/Leaf Green (Gen 3)
+- **Available Pokémon**: Bulbasaur, Charmander, Squirtle
 
-- **React 18** com TypeScript
-- **CSS3** com animações modernas
-- **Design Responsivo** para todos os dispositivos
-- **Estatísticas em tempo real** durante a simulação
+## 🛠️ Technologies
 
-## 📱 Funcionalidades Técnicas
+- **React 18** with TypeScript
+- **CSS3** with modern animations
+- **Web Audio API** for authentic sounds
+- **Chart.js** for data visualizations
+- **Responsive Design** for all devices
+- **Real-time statistics** during simulation
 
-- Simulação assíncrona para não bloquear a UI
-- Barra de progresso em tempo real
-- Cálculos estatísticos precisos
-- Formatação inteligente de tempo
-- Interface otimizada para performance
+## 📱 Technical Features
+
+- Asynchronous simulation to avoid UI blocking
+- Real-time progress bar
+- Accurate statistical calculations
+- Smart time formatting
+- Performance-optimized interface
+- Audio management with MP3 files
+- Advanced data visualization components
 
 ## 🎨 Design
 
-- Gradientes vibrantes inspirados em Pokémon
-- Animações suaves e micro-interações
-- Cards informativos com estatísticas
-- Layout responsivo e moderno
-- Emojis e elementos visuais atrativos
+- Vibrant gradients inspired by Pokémon
+- Smooth animations and micro-interactions
+- Informative cards with statistics
+- Responsive and modern layout
+- Attractive emojis and visual elements
+- Dynamic theming based on selected Pokémon
+- SHINY celebration animations
 
-Aproveite o simulador e boa sorte na sua caça ao Charmander SHINY! 🔥✨
+## 🎵 Audio Features
 
-## ��� Shiny Hunting
+- **Authentic Pokémon Cries**: MP3 files for Bulbasaur, Charmander, and Squirtle
+- **SHINY Celebration Sound**: Special audio when finding SHINY
+- **Smart Audio Management**: Prioritizes real audio files
+- **Fallback System**: Graceful error handling
 
-Interactive Pokémon SHINY Encounter Simulator with authentic cries and animations.
+## 🌟 Experience
 
-### Features:
-- ��� Authentic Pokémon cries (MP3 files)
-- ✨ Beautiful SHINY animations
-- ��� Advanced statistics and visualizations
-- ��� Single and multiple hunt modes
-- ��� Fully responsive English interface
+- **Pokémon Selection**: Hear authentic cries when choosing your Pokémon
+- **Hunting Simulation**: Watch real-time progress with animations
+- **SHINY Discovery**: Celebrate with special animations and sounds
+- **Statistics Dashboard**: Comprehensive analysis of your hunting results
 
-### Technologies:
-- React 18 + TypeScript
-- Web Audio API
-- CSS Animations
-- Chart.js for visualizations
+Enjoy the simulator and good luck on your SHINY hunting journey! 🌟✨
+
+---
+
+## 🚀 Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/EduBrQ/shiny-hunt.git
+
+# Navigate to project
+cd shiny-hunt
+
+# Install dependencies
+npm install
+
+# Start the application
+npm start
+```
+
+Visit `http://localhost:3000` to start your SHINY hunting adventure!
 
