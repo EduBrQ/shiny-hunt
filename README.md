@@ -66,3 +66,21 @@ Um simulador interativo para descobrir quantos encontros s√£o necess√°rios para 
 - Emojis e elementos visuais atrativos
 
 Aproveite o simulador e boa sorte na sua ca√ßa ao Charmander SHINY! üî•‚ú®
+
+## Ìºü Shiny Hunting
+
+Interactive Pok√©mon SHINY Encounter Simulator with authentic cries and animations.
+
+### Features:
+- Ìæµ Authentic Pok√©mon cries (MP3 files)
+- ‚ú® Beautiful SHINY animations
+- Ì≥ä Advanced statistics and visualizations
+- ÌæÆ Single and multiple hunt modes
+- Ìºç Fully responsive English interface
+
+### Technologies:
+- React 18 + TypeScript
+- Web Audio API
+- CSS Animations
+- Chart.js for visualizations
+
