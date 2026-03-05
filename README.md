@@ -94,7 +94,7 @@ An interactive simulator to discover how many encounters are needed to find SHIN
 
 ## 📸 Screenshot
 
-![Shiny Hunting Simulator](./screenshot.png)
+![Shiny Hunting Simulator](./public/imgs/screenshot.png)
 
 *Interactive SHINY Pokémon hunting simulator with authentic cries and beautiful animations*
 
